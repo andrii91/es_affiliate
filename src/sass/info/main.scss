@@ -1,0 +1,232 @@
+@import 'variables';
+
+*{
+  outline: none;
+}
+a:focus, a:hover, input:focus, input:hover {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  @import 'MediaQueries/main';
+  overflow-x: hidden;
+}
+
+.main-tmpl {
+  background-color: #003177;
+//  background-image: url('../images/196.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+ margin-bottom: 0;
+}
+.navbar {
+  padding: 45px 15px 30px;
+}
+
+.section-item {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FFFFFF;
+  padding: 30px 44px;
+  margin-bottom: 40px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+    h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000;
+    margin-bottom: 15px;
+    span {
+      color: #0097E2;
+    }
+  }
+  .table {
+    border-radius: 13px;
+    overflow: hidden;
+    margin-top: 30px;
+    td, th {
+      border-color:  rgba(0, 0, 0, 0.1);
+      padding: 18px 20px;
+       &:first-child {
+          text-align: left;
+        }
+    }
+    thead {
+      th {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+      text-align: center;
+        border-top: 0;
+        border-width: 1px;
+       
+      }
+    }
+    td {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #000000;
+    }
+  }
+      .fv-plugins-bootstrap .fv-plugins-icon {
+    height: 34px;
+    line-height: 34px;
+    width: 34px;
+      font-size: 9px;
+        font-style: normal;
+}
+    
+  form {
+
+    .form-check-input {
+      width: 23px;
+      height: 23px;
+      border-color: #E9E9E9;
+      border-radius: 4px;
+      left: 0;
+      margin-left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-top: 0;
+      position: absolute;
+    }
+    .form-check {
+      position: relative;
+      padding-left: 38px;
+    }
+    margin-top: 35px;
+    .form-group {
+      margin-bottom: 20px;
+      position: relative;
+      .fv-plugins-message-container {
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+      }
+      .form-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 8px;
+
+      }
+    }
+    >label {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+      margin-bottom: 10px;
+    }
+    .form-control {
+      border: 1px solid #E9E9E9;
+      box-sizing: border-box;
+      border-radius: 6px;
+      padding: 7px 15px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 1;
+      height: inherit;
+
+      &:placeholder {
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+    }
+  }
+  
+}
+.btn-signup {
+  width: 163px;
+  height: 55px;
+  background: linear-gradient(0deg, #FF6067, #FF6067), #1B1B1B;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  margin-left: auto;
+  &:hover {
+    opacity: .9;
+    color: #fff;
+    box-shadow: 0 0;
+  }
+}
+
+.head-item {
+  h1 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 75px;
+      color: #000;
+      margin-bottom: 20px;
+    span {
+      color: #0097E2;
+      display: block;
+    }
+  }
+
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 160%;
+    color: #000;
+    margin-bottom: 0;
+    &.small {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 160%;
+      color: #000000;
+      opacity: .4;
+      max-width: 760px;
+      margin-top: 30px;
+    }
+  }
+  
+  h3 {
+
+    margin-top: 50px;
+
+  }
+  ol {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    margin: 0;
+    padding-left: 20px;
+  }
+}

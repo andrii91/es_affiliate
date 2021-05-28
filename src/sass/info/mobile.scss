@@ -1,0 +1,41 @@
+& {
+  .section-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section-item .table td,
+  .section-item .table th {
+    padding: 18px 5px;
+  }
+
+  .content,
+  .navbar {
+    min-width: 100%;
+  }
+
+  .section-item .table thead th {
+    font-size: 14px;
+    vertical-align: middle;
+  }
+
+  .section-item .table td {
+    font-size: 12px;
+  }
+
+  .btn-signup {
+    margin-top: 15px;
+  }
+
+  .head-item h1 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+  .head-item p {
+    font-size: 18px;
+  }
+  .section-item h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+}

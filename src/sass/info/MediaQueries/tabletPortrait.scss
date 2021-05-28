@@ -1,0 +1,16 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+
+  & {
+    .btn-signup {
+      margin-top: 0;
+    }
+
+    .section-item {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+}
